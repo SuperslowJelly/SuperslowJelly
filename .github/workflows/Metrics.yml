@@ -59,4 +59,3 @@ jobs:
           plugin_traffic: yes
           repositories_forks: yes
           repositories_skipped: Superslowjelly/superslowJelly
-          config_order: base.header, languages, music, base.activity, base.repositories, achievements
