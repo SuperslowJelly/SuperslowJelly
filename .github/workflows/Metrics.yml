@@ -30,7 +30,7 @@ jobs:
           plugin_activity_filter: all
           plugin_activity_limit: 5
           plugin_activity_load: 300
-          plugin_activity_skipped: SuperslowJelly
+          plugin_activity_skipped: superslowJelly
           plugin_activity_timestamps: yes
           plugin_activity_visibility: all
           plugin_habits: yes
@@ -50,7 +50,6 @@ jobs:
           plugin_languages_recent_days: 14
           plugin_languages_recent_load: 300
           plugin_languages_sections: most-used
-          plugin_languages_skipped: SuperslowJelly
           plugin_languages_threshold: 0%
           plugin_lines: yes
           plugin_music: yes
@@ -62,4 +61,4 @@ jobs:
           plugin_music_token: "${{ secrets.SPOTIFY_CLIENT_ID }}, ${{ secrets.SPOTIFY_CLIENT_SECRET }}, ${{ secrets.SPOTIFY_REFRESH_TOKEN }}"
           plugin_traffic: yes
           repositories_forks: yes
-          repositories_skipped: SuperslowJelly
+          repositories_skipped: superslowJelly
