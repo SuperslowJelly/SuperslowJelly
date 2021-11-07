@@ -20,7 +20,6 @@ jobs:
           retries: 3
           retries_delay: 300
           base: activity, repositories, metadata
-          config_order: header, languages, music, activity, repositories, achievements
           extras_css: |
             h2, h3 {
               color: #F1C40F;
@@ -60,3 +59,4 @@ jobs:
           plugin_traffic: yes
           repositories_forks: yes
           repositories_skipped: Superslowjelly/superslowJelly
+          config_order: base.header, languages, music, base.activity, base.repositories, achievements
