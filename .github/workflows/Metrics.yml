@@ -10,7 +10,7 @@ jobs:
   github-metrics:
     runs-on: ubuntu-latest
     steps:
-      - uses: lowlighter/metrics@master
+      - uses: lowlighter/metrics@latest
         with:
           # Your GitHub token
           token: ${{ secrets.METRICS_TOKEN }}
@@ -19,7 +19,7 @@ jobs:
           user: SuperslowJelly
           template: classic
           base: header, activity, repositories
-          config_display: columns
+          config_display: large
           config_timezone: Europe/London
           plugin_achievements: yes
           plugin_achievements_display: compact
