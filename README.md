@@ -1,1 +1,1 @@
-![Metrics](https://github.com/SuperslowJelly/SuperslowJelly/blob/master/github-metrics.svg)
+![Metrics](https://raw.githubusercontent.com/SuperslowJelly/SuperslowJelly/main/github-metrics.svg)
