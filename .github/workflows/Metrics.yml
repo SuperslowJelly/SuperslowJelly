@@ -12,15 +12,15 @@ jobs:
     steps:
       - uses: lowlighter/metrics@master
         with:
-          # Your GitHub token
           token: ${{ secrets.METRICS_TOKEN }}
 
           # Options
           user: SuperslowJelly
           template: classic
-          #retries: 3
-          #retries_delay: 300
+          retries: 3
+          retries_delay: 300
           base: activity, repositories, metadata
+          config_order: base.header, music, habits, languages, base.activity, base.repositories, achievements
           extras_css: |
             h2, h3 {
               color: #F1C40F;
@@ -33,7 +33,7 @@ jobs:
           plugin_achievements_threshold: C
           plugin_habits: yes
           plugin_habits_days: 183
-          plugin_habits_facts: yes
+          plugin_habits_facts: no
           plugin_habits_from: 200
           plugin_habits_charts: yes     # Display charts section
           plugin_habits_trim: yes       # Trim unused hours on daily chart
@@ -59,4 +59,4 @@ jobs:
           plugin_music_token: "${{ secrets.SPOTIFY_CLIENT_ID }}, ${{ secrets.SPOTIFY_CLIENT_SECRET }}, ${{ secrets.SPOTIFY_REFRESH_TOKEN }}"
           plugin_traffic: yes
           repositories_forks: yes
-          repositories_skipped: superslowJelly
+          repositories_skipped: Superslowjelly/superslowJelly
