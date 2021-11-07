@@ -18,8 +18,8 @@ jobs:
           # Options
           user: SuperslowJelly
           template: classic
-          retries: 3
-          retries_delay: 300
+          #retries: 3
+          #retries_delay: 300
           base: activity, repositories, metadata
           extras_css: |
             h2, h3 {
