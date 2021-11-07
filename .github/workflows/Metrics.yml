@@ -23,10 +23,10 @@ jobs:
           base: activity, repositories, metadata
           extras_css: |
             h2 {
-              color: gold;
+              color: #F1C40F;
             }
             h3 {
-              color: gold;
+              color: #F1C40F;
             }
           config_display: large
           config_timezone: Europe/London
@@ -57,7 +57,7 @@ jobs:
           plugin_music_provider: spotify # Use Spotify as provider
           plugin_music_mode: top         # Set plugin mode
           plugin_music_limit: 8          # Limit to 4 entries, maximum is 50 for "top" mode with spotify
-          plugin_music_top_type: tracks  # Set type for "top" mode; either tracks or artists
+          plugin_music_top_type: artists  # Set type for "top" mode; either tracks or artists
           plugin_music_time_range: long # Set time range for "top" mode; either short (4 weeks), medium (6 months) or long (several years)
           plugin_music_token: "${{ secrets.SPOTIFY_CLIENT_ID }}, ${{ secrets.SPOTIFY_CLIENT_SECRET }}, ${{ secrets.SPOTIFY_REFRESH_TOKEN }}"
           plugin_traffic: yes
