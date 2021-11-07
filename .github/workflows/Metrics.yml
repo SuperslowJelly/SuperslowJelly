@@ -18,7 +18,13 @@ jobs:
           # Options
           user: SuperslowJelly
           template: classic
+          retries: 3
+          retries_delay: 300
           base: activity, repositories, metadata
+          extras_css: |
+            h2 {
+              color: gold;
+            }
           config_display: large
           config_timezone: Europe/London
           plugin_achievements: yes
