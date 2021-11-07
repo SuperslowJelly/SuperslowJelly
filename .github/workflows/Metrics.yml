@@ -20,7 +20,7 @@ jobs:
           retries: 3
           retries_delay: 300
           base: activity, repositories, metadata
-          config_order: base.header, music, habits, languages, base.activity, base.repositories, achievements
+          config_order: header, languages, music, activity, repositories, achievements
           extras_css: |
             h2, h3 {
               color: #F1C40F;
