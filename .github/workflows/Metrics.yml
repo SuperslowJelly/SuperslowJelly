@@ -58,4 +58,4 @@ jobs:
           plugin_music_token: "${{ secrets.SPOTIFY_CLIENT_ID }}, ${{ secrets.SPOTIFY_CLIENT_SECRET }}, ${{ secrets.SPOTIFY_REFRESH_TOKEN }}"
           plugin_traffic: yes
           repositories_forks: yes
-          repositories_skipped: Superslowjelly/superslowJelly
+          repositories_skipped: Superslowjelly/superslowJelly, SuperslowJelly/Dev-Resources
