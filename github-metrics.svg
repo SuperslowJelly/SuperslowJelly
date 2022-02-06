@@ -397,13 +397,13 @@
                     <div class="chart-bars horizontal">
                         <div class="entry">
                             <span class="name">C++</span>
-                            <div class="bar" style="width: 75.02035703100533%; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
-                            <span class="value">94%</span>
+                            <div class="bar" style="width: 74.65428529973101%; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
+                            <span class="value">93%</span>
                         </div>
                         <div class="entry">
                             <span class="name">C</span>
-                            <div class="bar" style="width: 4.979642968994676%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
-                            <span class="value">6%</span>
+                            <div class="bar" style="width: 5.3457147002689815%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                            <span class="value">7%</span>
                         </div>
                     </div>
                 </section>
@@ -1036,7 +1036,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 6 Feb 2022, 16:01:12 (timezone Europe/London) with lowlighter/metrics@3.20.0-beta</span>
+                <span>Last updated 6 Feb 2022, 17:03:45 (timezone Europe/London) with lowlighter/metrics@3.20.0-beta</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
