@@ -347,13 +347,13 @@
                     <div class="chart-bars horizontal">
                         <div class="entry">
                             <span class="name">C++</span>
-                            <div class="bar" style="width: 73.74755454297814%; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
-                            <span class="value">92%</span>
+                            <div class="bar" style="width: 74.41093425951377%; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
+                            <span class="value">93%</span>
                         </div>
                         <div class="entry">
                             <span class="name">C</span>
-                            <div class="bar" style="width: 6.252445457021867%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
-                            <span class="value">8%</span>
+                            <div class="bar" style="width: 5.5890657404862445%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                            <span class="value">7%</span>
                         </div>
                     </div>
                 </section>
@@ -549,7 +549,7 @@
                                 <div class="title">
                                     <span class="prefix">Super</span>
                                     developer
-                                    <span class="gh">ranked 251k out of 86m users</span>
+                                    <span class="gh">ranked 251k out of 87m users</span>
                                 </div>
                                 <div class="text">Published 69 public repositories</div>
                             </div>
@@ -986,7 +986,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 13 Mar 2022, 06:10:22 (timezone Europe/London) with lowlighter/metrics@3.22.0-beta</span>
+                <span>Last updated 13 Mar 2022, 07:01:05 (timezone Europe/London) with lowlighter/metrics@3.22.0-beta</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
