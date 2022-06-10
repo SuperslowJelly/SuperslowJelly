@@ -162,7 +162,7 @@
                     <rect mask="url(#languages-bar)" x="877.2739374165519" y="0" width="28.240848633904214" height="8" fill="#555555"/>
                     <rect mask="url(#languages-bar)" x="905.5147860504561" y="0" width="6.212651904703411" height="8" fill="#aace60"/>
                     <rect mask="url(#languages-bar)" x="911.7274379551595" y="0" width="4.419051633698889" height="8" fill="#f1e05a"/>
-                    <rect mask="url(#languages-bar)" x="916.1464895888583" y="0" width="1.4934579114421827" height="8" fill="#2b7489"/>
+                    <rect mask="url(#languages-bar)" x="916.1464895888583" y="0" width="1.4934579114421827" height="8" fill="#3178c6"/>
                     <rect mask="url(#languages-bar)" x="917.6399475003005" y="0" width="1.4687354823869092" height="8" fill="#563d7c"/>
                     <rect mask="url(#languages-bar)" x="919.1086829826875" y="0" width="0.8913170173124338" height="8" fill="#e34c26"/>
                 </svg>
@@ -199,7 +199,7 @@
                     </div>
                     <div class="field center no-wrap language">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                            <path fill="#2b7489" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                            <path fill="#3178c6" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
                         </svg>
                         TypeScript
                     </div>
@@ -398,13 +398,13 @@
                         <div class="chart-bars horizontal">
                             <div class="entry">
                                 <span class="name">C++</span>
-                                <div class="bar" style="width: 57.45727502836694%; background-color: var(--color-calendar-graph-day-L3-bg)"></div>
-                                <span class="value">72%</span>
+                                <div class="bar" style="width: 59.40037251406942%; background-color: var(--color-calendar-graph-day-L3-bg)"></div>
+                                <span class="value">74%</span>
                             </div>
                             <div class="entry">
                                 <span class="name">C</span>
-                                <div class="bar" style="width: 19.968927293357773%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
-                                <span class="value">25%</span>
+                                <div class="bar" style="width: 17.6467525184755%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <span class="value">22%</span>
                             </div>
                         </div>
                     </section>
@@ -998,7 +998,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 10 Jun 2022, 11:01:18 (timezone Europe/London) with lowlighter/metrics@3.25.0-beta</span>
+                <span>Last updated 10 Jun 2022, 12:01:34 (timezone Europe/London) with lowlighter/metrics@3.25.0-beta</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
