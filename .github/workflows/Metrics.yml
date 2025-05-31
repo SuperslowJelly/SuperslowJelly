@@ -17,6 +17,7 @@ jobs:
           # Options
           user: SuperslowJelly
           template: classic
+          config_debug: yes
           retries: 3
           retries_delay: 300
           base: activity, repositories, metadata
